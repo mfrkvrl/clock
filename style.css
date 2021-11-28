@@ -1,0 +1,129 @@
+.saat{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+}
+.cubuk-1{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(-60deg) translate(200px,0);
+    
+}
+.cubuk-2{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(-30deg) translate(200px,0);
+    
+}
+.cubuk-4{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(30deg) translate(200px,0);
+    
+}
+.cubuk-5{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(60deg) translate(200px,0);
+    
+}
+.cubuk-7{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(120deg) translate(200px,0);
+    
+}
+.cubuk-8{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(150deg) translate(200px,0);
+    
+}
+.cubuk-10{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(210deg) translate(200px,0);
+    
+}
+.cubuk-11{
+    position: absolute;
+    width: 4rem;
+    height: .4rem;
+    background:black;
+    transform: rotate(240deg) translate(200px,0);
+    
+}
+.uc{
+    position: absolute;
+    font-size: 5rem;
+    transform: translate(200px,0);
+}
+.alti{
+    position: absolute;
+    font-size: 5rem;
+    transform: translate(0,200px);
+}
+.dokuz{
+    position: absolute;
+    font-size: 5rem;
+    transform: translate(-200px,0);
+}
+.oniki{
+    position: absolute;
+    font-size: 5rem;
+    transform: translate(0,-200px);
+}
+.saniye{
+    position: absolute;
+    /* position:relative; */
+    width: 14rem;
+    height: .01rem;
+    background-color: red;
+    transform: rotate(-90deg), translate(20px);
+    top: 250px;
+    left: 250px;
+    /* align-self: flex-end; */
+    transform-origin: left ; 
+}
+.akrep{
+   position: absolute;
+    width: 10rem;
+    height: .4rem;
+    background-color: #000;
+    top: 250px;
+    left: 250px;
+    transform-origin: left ; 
+    
+}
+.yelkovan{
+    position: absolute;
+    width: 14rem;
+    height: .2rem;
+    background-color: #000;
+    top: 250px;
+    left: 250px;
+    transform-origin: left ; 
+}
